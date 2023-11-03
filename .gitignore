@@ -1,0 +1,31 @@
+node_modules
+
+# Yarn
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Storybook
+storybook-static/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+
+# Others
+*.env
+npm-debug.log*
+yarn-error.log
